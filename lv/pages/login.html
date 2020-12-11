@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/login.css">
+  <title>登录/注册账号</title>
+</head>
+<body>
+  <div class="have">
+    <div class="header">
+      会员登录
+      <img src="../imgs/lv.png" alt="">
+    </div>
+  
+    
+    <div class="problem">
+        我已有一个账号？
+    </div>
+   <form id="login">
+    <p class="loginText">登录</p>
+    <p class="name">用户名（手机号/电子邮箱地址）*</p>
+    <p class="login_cuo hide">请输入正确的账号或者密码</p>
+    <input type="text" placeholder="请输入您的账号进行登录" class="username" id="username" name="username">
+  
+    <p class="pass">密码*</p>
+    <p class="login_cuo hide">请输入正确的密码</p>
+    <input type="password" placeholder="请正确输入您的密码进行登录" class="password" id="password" name="password">
+  
+    <button type="submit">登录</button>
+    <p class="wx">
+      全球或指定地区 使用微信登录
+      <img src="../imgs/微信.png" alt="">
+    </p>
+  </form>
+  
+    <!-- 注册 -->
+    <p class="sign">
+      您可以注册一个账号👇(请点击 右键进行隐藏)
+    </p>
+    <div class="signBox">
+      <p class="zhang">注册账号</p>
+      <p>手机号码*</p>
+      <input type="text" placeholder="请输入11位手机号 ">
+      <p>申请账号*</p>
+      <input type="text" placeholder="编写您的账号">
+      <p>注册密码*</p>
+      <input type="text" placeholder="请输入密码">
+      
+      <button type="submit">注册账号</button>
+    </div>
+  </div>
+            <div class="greet">
+            </div>
+            <p class="go">前去购物</p>
+    
+    <!-- 底部 -->
+    <div class="lv_tail center">
+      <div class="imgBox">
+        <img src="../imgs/首页底图_03.png" alt="">
+      </div>
+      <!-- 列表 -->
+      <div class="list">
+        <ul>
+          <li>中国大陆</li>
+          <li>订阅电子报</li>
+          <li>练习我们</li>
+          <li>应用程序</li>
+          <li>关注我们</li>
+          <li>法律声明和隐私条款</li>
+          <li>泸ICP备3625852号</li>
+          <li>
+            <img src="../imgs/icon警察.png" alt="">
+            电子营业执照
+          </li>
+          <li>出版物经营许可证</li>
+          <li>
+            <img src="../imgs/icon警察.png" alt="">
+            泸公安必备
+          </li>
+          <li>招聘</li>
+        </ul>
+      </div>
+    </div>
+
+
+  <script src="../assets/jquery/jquery.min.js"></script>
+  <script src="../assets/jquery-validation/jquery.validate.min.js"></script>
+  <script src="../assets/jquery-validation/localization/messages_zh.min.js"></script>
+  <script src="../js/public.js"></script>
+  <script src="../js/login.js"></script>
+</html>

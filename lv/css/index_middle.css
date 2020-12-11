@@ -1,0 +1,182 @@
+.lv_text {
+  height: 199.18px;
+  padding: 30px;
+  box-sizing: border-box; }
+  .lv_text .lv_nba {
+    height: 31px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px; }
+  .lv_text .show {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .lv_text .show span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 54px;
+      font-size: 17px;
+      width: 297px;
+      border: 1px solid black; }
+    .lv_text .show .show_l {
+      margin-right: 9px;
+      background-color: black;
+      color: white;
+      cursor: pointer; }
+    .lv_text .show .show_l:hover {
+      background-color: blanchedalmond;
+      color: black;
+      transition: all .65s linear; }
+    .lv_text .show .show_r {
+      background-color: white;
+      color: black;
+      cursor: pointer; }
+    .lv_text .show .show_r:hover {
+      background-color: blanchedalmond;
+      transition: all .65s linear; }
+
+.lv_buy {
+  width: 759.6px;
+  height: 1017.24px;
+  padding: 51.685px;
+  float: left;
+  border-top: 1px solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  cursor: pointer; }
+  .lv_buy .imgBox {
+    width: 656.23px;
+    height: 820.28px; }
+    .lv_buy .imgBox img {
+      width: 100%;
+      height: 100%; }
+  .lv_buy .lv_buy_info {
+    height: 34.4px;
+    width: 656.23px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 72px;
+    box-sizing: border-box; }
+
+.lv_buy2 {
+  width: 759.6px;
+  height: 1017.24px;
+  float: left;
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 51.685px;
+  box-sizing: border-box;
+  cursor: pointer; }
+  .lv_buy2 .lv_buyBox {
+    clear: both;
+    height: 400.59px;
+    padding-top: 130px;
+    box-sizing: border-box; }
+    .lv_buy2 .lv_buyBox .mon {
+      font-size: 30px;
+      font-weight: 700;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .lv_buy2 .lv_buyBox .china {
+      font-size: 19px;
+      font-weight: 100;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+    .lv_buy2 .lv_buyBox .time {
+      width: 240px;
+      height: 46.4px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 17px;
+      background-color: black;
+      color: white;
+      margin: 0 auto; }
+    .lv_buy2 .lv_buyBox .time:hover {
+      background-color: blanchedalmond;
+      color: black;
+      transition: all .5s linear; }
+  .lv_buy2 .lv_buyBox2 {
+    height: 566.65px;
+    padding-top: 51.659px;
+    box-sizing: border-box; }
+    .lv_buy2 .lv_buyBox2 .imgBox {
+      width: 657.23px;
+      height: 369.69px; }
+      .lv_buy2 .lv_buyBox2 .imgBox img {
+        width: 657.23px;
+        height: 369.69px; }
+    .lv_buy2 .lv_buyBox2 .bags {
+      height: 34.4px;
+      width: 656.23px;
+      font-size: 30px;
+      text-align: center;
+      font-weight: 700;
+      margin-top: 72px;
+      box-sizing: border-box; }
+
+.lv_three {
+  height: 392.36px;
+  display: flex;
+  box-sizing: border-box; }
+  .lv_three .th {
+    border: none; }
+  .lv_three div {
+    width: 506.39px;
+    padding: 51.19px;
+    box-sizing: border-box;
+    border-right: 1px solid #e8e8e8;
+    height: 392.36px;
+    cursor: pointer; }
+    .lv_three div img {
+      width: 404.01px;
+      height: 202px; }
+    .lv_three div h2 {
+      font-weight: 700px;
+      margin-top: 50px;
+      text-align: center; }
+
+.lv_tail {
+  height: 184.2px;
+  background-color: #19110b; }
+  .lv_tail .imgBox {
+    width: 1263.22px;
+    height: 85px;
+    margin: 0 auto;
+    border-bottom: 1px solid #392d23;
+    box-sizing: border-box; }
+    .lv_tail .imgBox img {
+      display: block;
+      float: left;
+      height: 83px; }
+  .lv_tail .list {
+    width: 1263.22px;
+    height: 99.2px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center; }
+    .lv_tail .list ul {
+      width: 1236.22px;
+      display: flex;
+      height: 19.2px; }
+      .lv_tail .list ul li {
+        font-size: 14px;
+        color: white;
+        display: flex;
+        margin-right: 8px;
+        cursor: pointer; }
+        .lv_tail .list ul li img {
+          width: 16px;
+          height: 16px;
+          display: flex;
+          margin-right: 5px; }

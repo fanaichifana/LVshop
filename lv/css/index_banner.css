@@ -1,0 +1,44 @@
+.banner {
+  width: 100%;
+  height: 379.75px; }
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  display: block; }
+
+.banner > ul {
+  width: 1519px;
+  height: 100%;
+  position: relative; }
+
+.banner > ul > li {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: opacity 1.5s linear;
+  opacity: 0;
+  cursor: pointer; }
+
+.banner > ul > li.active {
+  opacity: 1; }
+
+.banner .cut {
+  height: 60px;
+  width: 1519px;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  transform: translateY(-40%);
+  display: flex;
+  justify-content: space-between; }
+
+.banner .cut p {
+  width: 50px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  color: black;
+  cursor: pointer; }
